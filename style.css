@@ -1,0 +1,37 @@
+html {
+    font-size: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    width: 10rem;
+    margin: 0.6rem;
+    padding: 1.5rem 0rem;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    font-size: 4rem;
+    color: white;
+    background-color:#002395;
+    text-align: center;
+    text-shadow: 0 0 .5rem black;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
